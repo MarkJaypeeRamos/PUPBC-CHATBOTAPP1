@@ -44,7 +44,7 @@ class ChatBot extends Component{
     },
     {
     _id:1, 
-    name: ''
+    name: '',
     }
     ] 
   };
@@ -344,7 +344,7 @@ class ChatBot extends Component{
   else if (text == 'puphsas'){
     msg = {
       _id: this.state.messages.length + 1, 
-      image: 'https://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/HSAS.jpg',
+      image: 'https://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/HSAS.jpg?raw=true',
       text: 'The Head of Student Affairs and Services in Polytechnic University of the Philippines Biñan Campus is Ms. Cheryl Joyce D. Jurado.',
       createdAt: new Date(),
       user: BOT,
@@ -362,7 +362,7 @@ class ChatBot extends Component{
   else if (text == 'gradequalification'){
     msg = {
       _id: this.state.messages.length + 1, 
-      text: 'Admission Criteria for the Different Courses \n\nFor BSA and BSBA, Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/BSA-BSBA.jpg \n\nFor BSIT, Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/BSIT.jpg \n\nFor BSSEDEN, BSSEDSS and BEED; Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/EDUC.jpg \n\nFor BSCPE and BSIE, Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/BSCPE-BSIE.jpg \n\nFor DICT, Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/DICT.jpg \n\nFor DCET, Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/DCET.jpg',
+      text: 'Admission Criteria for the Different Courses \n\nFor BSA and BSBA, Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/BSA-BSBA.jpg?raw=true \n\nFor BSIT, Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/BSIT.jpg?raw=true \n\nFor BSSEDEN, BSSEDSS and BEED; Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/EDUC.jpg?raw=true \n\nFor BSCPE and BSIE, Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/BSCPE-BSIE.jpg?raw=true \n\nFor DICT, Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/DICT.jpg?raw=true \n\nFor DCET, Click the link below: \nhttps://github.com/MarkJaypeeRamos/PUPBC-CHATBOTAPP/blob/main/assets/chatbotimg/DCET.jpg?raw=true',
       createdAt: new Date(),
       user: BOT,
       
