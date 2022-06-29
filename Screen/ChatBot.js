@@ -45,6 +45,7 @@ class ChatBot extends Component{
     {
     _id:1, 
     name: '',
+    
     }
     ] 
   };
